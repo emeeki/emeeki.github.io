@@ -1,0 +1,139 @@
+/* Universal */
+body {
+  font-family: 'Barrio', handwritten;
+}
+
+.camera, .code, .cv, .connect {
+  background-color: white;
+  padding: 2% 1%;
+  margin: 3% 6%;
+  text-align: center;
+} 
+/* End Universal */
+
+
+/* Navigation Bar */
+.buttons {  
+  background-color: white;
+  text-align: justify;
+  min-width: 450px;
+  padding: 1% 10% 0% 10%;
+}
+
+.buttons:after {
+  content: ' ';
+  display: inline-block;
+  width: 100%;
+}
+
+.buttons li {
+  display: inline-block;
+  font-size: 28px;
+}
+
+.buttons li:hover {
+  cursor: pointer;
+  color: salmon;
+}
+
+.nav a {
+  color: salmon;
+  text-decoration: none;
+  padding: 8px 10px 6px 10px;
+}
+
+.nav a:hover {
+  color: white;
+  background-color: salmon;
+}
+/* End Navigation Bar */
+
+
+/* Intro */
+.intro {
+  background: url('http://i68.tinypic.com/124vqft.jpg') no-repeat;
+  background-size: 75%;
+  background-attachment: float;
+  background-position: 80% 60%;
+  height: 400px;
+  padding: 1% 1%;
+  margin: 1% 6%;
+}
+
+h1 {
+  font-size: 8em;
+  margin: 0% 0% -5% 0%;
+}
+
+h2 {
+  font-size: 2em;
+}
+/* End Intro */
+
+
+/* Code, Camera, CV, Contact */
+h3 {
+  font-size: 45px;
+  color: salmon;
+  text-align: center;
+  padding: 5px 0px 0px 0px;
+  margin: 0px 0px -15px 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.35em;
+}
+
+img {
+  display: inline-block;
+  padding: 1% 2%;
+  margin: 0% 0% 2% 0%;
+}
+
+.social-links a {
+  color: black;
+  text-decoration: underline;
+}
+
+.social-links a:visited {
+  color: grey;
+}
+
+.social-links a:hover, a:active {
+  color: salmon;
+}
+/* End Code, Camera, CV, Connect */
+
+@media only screen and (max-width: 535px) {
+  h1 {
+    font-size: 4em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  .intro {
+  background: url('http://i68.tinypic.com/124vqft.jpg') no-repeat;
+  background-size: 75%;
+  background-attachment: float;
+  background-position: 80% 30%;
+  height: 300px;
+  padding: 1% 1%;
+  margin: 1% 6%;
+}
+
+  .buttons {  
+  background-color: white;
+  text-align: justify;
+  min-width: 400px;
+  padding: 1% 5% 0% 5%;
+}
+}
+
+@media only screen and (min-width: 535px) and (max-width: 1044px) {
+  img {
+    width: 20%;
+  }
+}
